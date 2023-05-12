@@ -1,75 +1,9 @@
 {
     "Contents": [
         {
-            "Key": "franco/key456/",
-            "LastModified": "2023-05-11T20:54:23.000Z",
-            "ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
-            "Size": 0,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
-            "Key": "franco/key456/2023-02-22_04-12-18_R_0002-007.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"2cab30c44621de9950a5a8819a76af40-2\"",
-            "Size": 20000018,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
-            "Key": "franco/key456/2023-02-22_04-16-38_R_0002-008.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"c2759465f5e94d9ee4a4ca08bf718941-2\"",
-            "Size": 20000019,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
-            "Key": "franco/key456/2023-02-22_04-22-01_R_0002-009.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"bffc03d3aafe5987a9fee8d49bb02a65-2\"",
-            "Size": 20000009,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
-            "Key": "franco/key456/2023-02-22_04-26-09_R_0002-010.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"03b18eb4173c3f85a488747233d9845a-2\"",
-            "Size": 20000022,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
-            "Key": "franco/key456/2023-02-22_04-31-52_R_0002-011.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"19623c1699a79a68685a6255d742163b-2\"",
-            "Size": 20000017,
-            "StorageClass": "STANDARD",
-            "Owner": {
-                "DisplayName": "mohsen",
-                "ID": "d4709c03d5878bc074e9368f80a5a6f948cdffa331585b9852b1510ac3351274"
-            }
-        },
-        {
             "Key": "franco/key456/2023-04-15_07-17-08_R_0007-003.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"3bd7b763a6eaa0d4b65a61d94aaf25c4-2\"",
+            "LastModified": "2023-05-12T18:58:10.000Z",
+            "ETag": "\"348933591f3d81e76a0a9e11b6cc58e5-3\"",
             "Size": 17973248,
             "StorageClass": "STANDARD",
             "Owner": {
@@ -79,8 +13,8 @@
         },
         {
             "Key": "franco/key456/2023-04-15_07-19-34_R_0007-004.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"fc13504dcb155388a4bfbf0c991e00e9-2\"",
+            "LastModified": "2023-05-12T18:58:11.000Z",
+            "ETag": "\"e7ac3862954b164e663cf0c062f2b2b4-3\"",
             "Size": 20000015,
             "StorageClass": "STANDARD",
             "Owner": {
@@ -90,8 +24,8 @@
         },
         {
             "Key": "franco/key456/2023-04-15_07-24-44_R_0007-005.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"5ccd653dca7cde2f27e568fe2dab3eaf-2\"",
+            "LastModified": "2023-05-12T18:58:11.000Z",
+            "ETag": "\"d6a71a5d5b4c916d0c023a8c7645ea9e-3\"",
             "Size": 20000019,
             "StorageClass": "STANDARD",
             "Owner": {
@@ -101,8 +35,8 @@
         },
         {
             "Key": "franco/key456/2023-04-15_07-27-26_R_0007-006.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"f0542586d77387fedab4caf7826ebd63-2\"",
+            "LastModified": "2023-05-12T18:58:11.000Z",
+            "ETag": "\"44ac20ab0e226e5ac2ab2d48abe37e0f-3\"",
             "Size": 19472384,
             "StorageClass": "STANDARD",
             "Owner": {
@@ -112,8 +46,8 @@
         },
         {
             "Key": "franco/key456/2023-04-15_07-29-01_R_0007-007.log",
-            "LastModified": "2023-05-11T22:25:08.000Z",
-            "ETag": "\"771dbeff4817417c0baa7268ea5a51f1-2\"",
+            "LastModified": "2023-05-12T18:58:11.000Z",
+            "ETag": "\"ba8f128b17ad4858692bdeac96097ca3-3\"",
             "Size": 20000020,
             "StorageClass": "STANDARD",
             "Owner": {

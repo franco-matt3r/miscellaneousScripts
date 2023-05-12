@@ -9,13 +9,11 @@ def build():
     with open(filenames_path) as f:
         filenames_dict = json.load(f)
     filenames = filenames_dict["Contents"]
-
     trigger = {}
-    trigger["MetaRecords"] = []
+    trigger["Records"] = []
     for file in filenames:
         if ".log" not in file["Key"]: continue
-        upload_event = {}
-        upload_event["Records"] = [{
+        upload_event = {
             "eventVersion": "2.0",
             "eventSource": "aws:s3",
             "awsRegion": "us-west-2",
@@ -42,8 +40,8 @@ def build():
                     "sequencer": "00645D22AB95C0AC41"
                 }
             }
-        }]
-        trigger["MetaRecords"].append(upload_event)
+        }
+        trigger["Records"].append(upload_event)
 
     with open(f"{OUTPUT_TRIGGER_MESSAGE}.json", "w") as outfile:
         json.dump(trigger, outfile)

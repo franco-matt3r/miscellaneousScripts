@@ -1,17 +1,16 @@
 import json
 import sys
 
-_, BUCKET_NAME, OUTPUT_FILE_NAME, OUTPUT_TRIGGER_MESSAGE = sys.argv
+_, BUCKET_NAME, MESSAGE_FOLDER_NAME, FILE_NAME_LIST = sys.argv
 ARN = f"arn:aws:s3:::{BUCKET_NAME}"
 
 def build():
-    filenames_path = f"./{OUTPUT_FILE_NAME}.json"
-    with open(filenames_path) as f:
+    with open(FILE_NAME_LIST) as f:
         filenames_dict = json.load(f)
     filenames = filenames_dict["Contents"]
     trigger = {}
     trigger["Records"] = []
-    for file in filenames:
+    for index, file in enumerate(filenames):
         if ".log" not in file["Key"]: continue
         upload_event = {
             "eventVersion": "2.0",
@@ -42,9 +41,10 @@ def build():
             }
         }
         trigger["Records"].append(upload_event)
-
-    with open(f"{OUTPUT_TRIGGER_MESSAGE}.json", "w") as outfile:
-        json.dump(trigger, outfile)
+        if index%5 == 0 or index == len(filenames)-1:
+            with open(f"./{MESSAGE_FOLDER_NAME}/{int(index/10)}.json", "w") as outfile:
+                json.dump(trigger, outfile)
+            trigger["Records"] = []
 
 
 if __name__ == "__main__":

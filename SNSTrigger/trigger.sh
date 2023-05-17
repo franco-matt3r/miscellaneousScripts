@@ -3,8 +3,8 @@ BUCKET_NAME="haoming-canserver-raw-test"
 # PREFIX="franco/key456/"
 # PREFIX="cheung/k3yusb-e731c27b/"
 PREFIX="franco-test/key789/"
-FILE_NAME_LIST_DIRECTORY="listObject"
-MESSAGE_BATCH_DIRECTORY="franco-test"
+FILE_NAME_LIST_DIRECTORY="./data/listObject"
+MESSAGE_BATCH_DIRECTORY="./data/franco-test"
 FILE_NAME_LIST_JSON=${FILE_NAME_LIST_DIRECTORY}"/filenames.json"
 COUNTER=0
 

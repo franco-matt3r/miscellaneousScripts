@@ -44,7 +44,7 @@ def build():
             }
         }
         trigger["Records"].append(upload_event)
-        if index%5 == 0 or index == fileCount:
+        if index%5 == 0 or index == len(filenames):
             with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:
                 json.dump(trigger, outfile)
             trigger["Records"] = []

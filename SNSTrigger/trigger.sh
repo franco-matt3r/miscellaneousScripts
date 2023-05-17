@@ -1,10 +1,11 @@
 BUCKET_NAME="haoming-canserver-raw-test"
 # BUCKET_NAME="matt3r-canserver-raw-us-west-2"
 # PREFIX="franco/key456/"
-PREFIX="cheung/k3yusb-e731c27b/"
+# PREFIX="cheung/k3yusb-e731c27b/"
+PREFIX="franco-test/key789/"
 FILE_NAME_LIST_DIRECTORY="listObject"
-MESSAGE_BATCH_DIRECTORY="cheungTest"
-FILE_NAME_LIST_JSON=${FILE_NAME_LIST_DIRECTORY}"/filenamesCheung.json"
+MESSAGE_BATCH_DIRECTORY="franco-test"
+FILE_NAME_LIST_JSON=${FILE_NAME_LIST_DIRECTORY}"/filenames.json"
 COUNTER=0
 
 if [ ! -f ${FILE_NAME_LIST_DIRECTORY} ]; then
@@ -25,4 +26,5 @@ do
     echo published batch number $COUNTER: ${MESSAGE_BATCH_DIRECTORY}/${COUNTER}.json
     aws sns publish --topic-arn arn:aws:sns:us-west-2:963414178352:matt3r-dpl-sns --message file://./${MESSAGE_BATCH_DIRECTORY}/${COUNTER}.json
     COUNTER=$((COUNTER+1))
+    sleep 90s
 done

@@ -10,7 +10,10 @@ def build():
     filenames = filenames_dict["Contents"]
     trigger = {}
     trigger["Records"] = []
-    for index, file in enumerate(filenames):
+    fileCount = len(filenames)
+    print("Number of files to trigger: ", fileCount)
+    counter = 0
+    for index, file in enumerate(filenames, 1):
         if ".log" not in file["Key"]: continue
         upload_event = {
             "eventVersion": "2.0",
@@ -41,10 +44,11 @@ def build():
             }
         }
         trigger["Records"].append(upload_event)
-        if index%5 == 0 or index == len(filenames)-1:
-            with open(f"./{MESSAGE_FOLDER_NAME}/{int(index/10)}.json", "w") as outfile:
+        if index%5 == 0 or index == fileCount:
+            with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:
                 json.dump(trigger, outfile)
             trigger["Records"] = []
+            counter += 1
 
 
 if __name__ == "__main__":

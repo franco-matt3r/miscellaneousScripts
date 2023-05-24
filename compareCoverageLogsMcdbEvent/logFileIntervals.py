@@ -22,6 +22,7 @@ def convert_files():
     path = './data/bin_logs/'  
     files = os.listdir(path)
     for file in files:
+        print(path+file)
         os.system(f'python3 ./can_reader.py {path+file}')
         
         
@@ -72,7 +73,6 @@ def get_intervals():
                 interval.append(curr)
                 prev = curr
         intervals.append([interval[0], prev])
-    print('intervals :', intervals)
     interval_dict['data'] = intervals
     with open('./data/logFileIntervals.json', 'w') as outfile:
         json.dump(interval_dict, outfile)
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     print('start_day:', start_stamp, 'end_day :', end_stamp)
     # download_files()
     # convert_files()
-    parse_csv()
+    # parse_csv()
     get_intervals()
     
     

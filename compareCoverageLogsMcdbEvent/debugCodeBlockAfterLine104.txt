@@ -1,0 +1,42 @@
+                # DEBUG
+                result_file = s3.get_object(Bucket=EVENT_BUCKET, Key="franco-test/key789/debug.json")     
+                str_body = result_file["Body"].read().decode()
+                final_result_file = json.loads(str_body)
+                prev_id = final_result_file['item'][-1]['id']
+                seen_timestamps = []
+                data_to_monitor = {}
+                data_to_monitor['id'] = prev_id + 1
+                data_to_monitor['currentTime'] = datetime.datetime.now().timestamp()
+                data_to_monitor['filename'] = fname
+                data_to_monitor['interval'] = [parsed_df['timestamp'].min(), parsed_df['timestamp'].max()]
+                # for float_time in parsed_df['timestamp'].tolist():
+                #     int_time = int(float_time)
+                #     if int_time not in seen_timestamps:
+                #         seen_timestamps.append(int_time)
+                # data_to_monitor['timestamps'] = seen_timestamps
+                prev = 0
+                interval_debug = []
+                intervals_debug = []
+                for curr in parsed_df['timestamp'].tolist():
+                    if prev == 0: 
+                        interval_debug = [curr, curr]
+                        prev = curr
+                        continue
+                    if curr - prev <= 5: 
+                        interval_debug[1] = curr
+                        prev = curr
+                    if curr - prev > 5:
+                        intervals_debug.append(interval_debug)
+                        interval_debug = [curr, curr]
+                        prev = curr
+                if len(interval_debug) > 0: intervals_debug.append(interval_debug)
+                data_to_monitor['timestamps'] = intervals_debug
+                final_result_file["item"].append(data_to_monitor)
+                final_result_file["inter"].append([parsed_df['timestamp'].min(), parsed_df['timestamp'].max()])
+                data_string_to_save = json.dumps(final_result_file, indent=2, default=str)
+                s3.put_object(
+                    Body=data_string_to_save,
+                    Bucket=EVENT_BUCKET,
+                    Key="franco-test/key789/debug.json"
+                )
+                # DEBUG

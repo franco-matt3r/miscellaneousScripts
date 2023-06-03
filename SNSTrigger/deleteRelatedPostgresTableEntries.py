@@ -9,9 +9,9 @@ import sys
 
 _, PREFIX = sys.argv
 K3Y_ID = PREFIX.split('/')[1]
-RAW_BUCKET = 'haoming-canserver-raw-test'
-PARSED_BUCKET = 'haoming-canserver-test'
-EVENT_BUCKET = 'haoming-canserver-event-test'
+# RAW_BUCKET = 'haoming-canserver-raw-test'
+# PARSED_BUCKET = 'haoming-canserver-test'
+# EVENT_BUCKET = 'haoming-canserver-event-test'
 # RAW_BUCKET = 'matt3r-canserver-raw-us-west-2'
 # PARSED_BUCKET = 'matt3r-canserver-us-west-2'
 # EVENT_BUCKET = 'matt3r-canserver-event-us-west-2'
@@ -74,7 +74,9 @@ def postgres_delete_all_entries_by_k3y_id():
     entries = session.query(CanServer).filter(CanServer.k3y_id == K3Y_ID).all()
     for obj in entries:
         session.delete(obj)
+        print("del", obj)
     session.commit()
+    print("here")
     session.close()
     print("Deleted all postgres entries with k3y_id ", K3Y_ID, ":", entries)
 

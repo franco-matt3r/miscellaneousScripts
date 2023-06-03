@@ -1,0 +1,1135 @@
+{
+  "event_types_version": 1,
+  "imu_telematics": {
+    "parked_state": [
+      {
+        "timestamp": [
+          1683317121.87914,
+          1683317267.953908
+        ],
+        "location": [
+          49.363420999999995,
+          -123.10419599999999
+        ]
+      },
+      {
+        "timestamp": [
+          1683317569.517536,
+          1683318354.825619
+        ],
+        "location": [
+          49.363420999999995,
+          -123.10419599999999
+        ]
+      },
+      {
+        "timestamp": [
+          1683318936.316515,
+          1683319258.496774
+        ],
+        "location": [
+          49.337177,
+          -123.102584
+        ]
+      },
+      {
+        "timestamp": [
+          1683319609.934275,
+          1683321587.91795
+        ],
+        "location": [
+          49.337177,
+          -123.102584
+        ]
+      },
+      {
+        "timestamp": [
+          1683322041.267209,
+          1683324019.887686
+        ],
+        "location": [
+          49.338975,
+          -123.103138
+        ]
+      },
+      {
+        "timestamp": [
+          1683324350.635029,
+          1683324076.158085
+        ],
+        "location": []
+      },
+      {
+        "timestamp": [
+          1683324350.635029,
+          1683324192.657963
+        ],
+        "location": []
+      },
+      {
+        "timestamp": [
+          1683324633.207757,
+          1683324884.159271
+        ],
+        "location": [
+          49.363543,
+          -123.10414
+        ]
+      },
+      {
+        "timestamp": [
+          1683325185.03833,
+          1683325447.600079
+        ],
+        "location": [
+          49.36342,
+          -123.104198
+        ]
+      },
+      {
+        "timestamp": [
+          1683325748.473484,
+          1683326077.372256
+        ],
+        "location": [
+          49.36342,
+          -123.104198
+        ]
+      }
+    ],
+    "driving_state": [
+      {
+        "start": 1683246534.88865,
+        "end": 1683247115.513192
+      },
+      {
+        "start": 1683248436.638412,
+        "end": 1683253607.815642
+      },
+      {
+        "start": 1683254089.791107,
+        "end": 1683258051.687229
+      },
+      {
+        "start": 1683258170.682618,
+        "end": 1683259652.369878
+      },
+      {
+        "start": 1683259671.014093,
+        "end": 1683260607.023621
+      },
+      {
+        "start": 1683260908.471804,
+        "end": 1683260920.847804
+      },
+      {
+        "start": 1683261222.565415,
+        "end": 1683261369.803637
+      },
+      {
+        "start": 1683261671.54951,
+        "end": 1683262030.118496
+      },
+      {
+        "start": 1683262331.071085,
+        "end": 1683262432.542929
+      },
+      {
+        "start": 1683262733.496167,
+        "end": 1683262753.795167
+      },
+      {
+        "start": 1683263055.498075,
+        "end": 1683263170.077536
+      },
+      {
+        "start": 1683263471.363329,
+        "end": 1683263736.473783
+      },
+      {
+        "start": 1683264037.106916,
+        "end": 1683264201.089098
+      },
+      {
+        "start": 1683264502.44145,
+        "end": 1683264767.434474
+      },
+      {
+        "start": 1683265068.42238,
+        "end": 1683265134.420491
+      },
+      {
+        "start": 1683265435.407225,
+        "end": 1683265448.601225
+      },
+      {
+        "start": 1683265749.070476,
+        "end": 1683265760.455476
+      },
+      {
+        "start": 1683266061.385085,
+        "end": 1683266342.55993
+      },
+      {
+        "start": 1683266644.360069,
+        "end": 1683266758.356621
+      },
+      {
+        "start": 1683267059.319703,
+        "end": 1683267233.824827
+      },
+      {
+        "start": 1683267534.328345,
+        "end": 1683267575.020386
+      },
+      {
+        "start": 1683267876.313155,
+        "end": 1683268024.546806
+      },
+      {
+        "start": 1683268383.418158,
+        "end": 1683268627.217814
+      },
+      {
+        "start": 1683268928.057517,
+        "end": 1683269194.396408
+      },
+      {
+        "start": 1683269495.092674,
+        "end": 1683269811.238309
+      },
+      {
+        "start": 1683270112.058748,
+        "end": 1683270392.224248
+      },
+      {
+        "start": 1683270693.671358,
+        "end": 1683270939.682733
+      },
+      {
+        "start": 1683271241.6263,
+        "end": 1683271589.167357
+      },
+      {
+        "start": 1683271890.090469,
+        "end": 1683272061.148264
+      },
+      {
+        "start": 1683272362.804287,
+        "end": 1683272393.496287
+      },
+      {
+        "start": 1683272694.057878,
+        "end": 1683272980.161964
+      },
+      {
+        "start": 1683273281.089784,
+        "end": 1683273595.091473
+      },
+      {
+        "start": 1683273896.078962,
+        "end": 1683274187.071306
+      },
+      {
+        "start": 1683274488.025328,
+        "end": 1683274738.045787
+      },
+      {
+        "start": 1683274948.678265,
+        "end": 1683281271.368655
+      },
+      {
+        "start": 1683281572.495772,
+        "end": 1683281828.786324
+      },
+      {
+        "start": 1683281885.784263,
+        "end": 1683288156.000198
+      },
+      {
+        "start": 1683288674.711248,
+        "end": 1683290176.483353
+      },
+      {
+        "start": 1683290825.338353,
+        "end": 1683295506.298641
+      },
+      {
+        "start": 1683295623.293526,
+        "end": 1683297772.985982
+      },
+      {
+        "start": 1683297820.219157,
+        "end": 1683298965.205996
+      },
+      {
+        "start": 1683298994.539566,
+        "end": 1683302066.576035
+      },
+      {
+        "start": 1683302120.959341,
+        "end": 1683302288.286926
+      },
+      {
+        "start": 1683302473.121384,
+        "end": 1683302418.477543
+      },
+      {
+        "start": 1683302719.046203,
+        "end": 1683302977.171278
+      },
+      {
+        "start": 1683303278.022485,
+        "end": 1683303529.516473
+      },
+      {
+        "start": 1683303830.312922,
+        "end": 1683304089.133809
+      },
+      {
+        "start": 1683304390.316656,
+        "end": 1683304699.787272
+      },
+      {
+        "start": 1683305056.434025,
+        "end": 1683305520.945516
+      },
+      {
+        "start": 1683305822.384469,
+        "end": 1683306063.445635
+      },
+      {
+        "start": 1683306266.819281,
+        "end": 1683307408.88184
+      },
+      {
+        "start": 1683307419.273104,
+        "end": 1683308076.856938
+      },
+      {
+        "start": 1683308204.107508,
+        "end": 1683310666.764705
+      },
+      {
+        "start": 1683310683.371163,
+        "end": 1683311399.074522
+      },
+      {
+        "start": 1683311700.472277,
+        "end": 1683316460.283872
+      },
+      {
+        "start": 1683318354.884619,
+        "end": 1683318936.255515
+      },
+      {
+        "start": 1683321587.94295,
+        "end": 1683322040.929209
+      },
+      {
+        "start": 1683324193.066963,
+        "end": 1683324802.498579
+      }
+    ],
+    "stationary_state": [
+      {
+        "start": 1683253277.061036,
+        "end": 1683253285.595474
+      },
+      {
+        "start": 1683259599.41605,
+        "end": 1683259611.07805
+      },
+      {
+        "start": 1683318447.422077,
+        "end": 1683318458.320442
+      },
+      {
+        "start": 1683318891.560364,
+        "end": 1683318902.316515
+      },
+      {
+        "start": 1683321590.94295,
+        "end": 1683321599.26295
+      }
+    ],
+    "harsh_brake": [],
+    "harsh_accel": []
+  },
+  "dmd": {
+    "autopilot_state": [
+      {
+        "timestamp": 1685667600,
+        "canbus_state_change": "6_1"
+      },
+      {
+        "timestamp": 1685667601,
+        "canbus_state_change": "6_14"
+      },
+      {
+        "timestamp": 1685667602.5,
+        "canbus_state_change": "6_0"
+      },
+      {
+        "timestamp": 1685667603,
+        "canbus_state_change": "6_1"
+      },
+      {
+        "timestamp": 1685667655,
+        "canbus_state_change": "6_8"
+      },
+      {
+        "timestamp": 1685667657.5,
+        "canbus_state_change": "6_1"
+      },
+      {
+        "timestamp": 1685667659,
+        "canbus_state_change": "6_2"
+      },
+      {
+        "timestamp": 1685667661,
+        "canbus_state_change": "6_1"
+      },
+      {
+        "timestamp": 1685667779,
+        "canbus_state_change": "6_1"
+      },
+      {
+        "timestamp": 1685667780,
+        "canbus_state_change": "6_2"
+      },
+      {
+        "timestamp": 1685667600,
+        "canbus_state_change": "1_6"
+      },
+      {
+        "timestamp": 1685667601,
+        "canbus_state_change": "1_6"
+      },
+      {
+        "timestamp": 1685667602.5,
+        "canbus_state_change": "14_6"
+      },
+      {
+        "timestamp": 1685667603,
+        "canbus_state_change": "0_6"
+      },
+      {
+        "timestamp": 1685667655,
+        "canbus_state_change": "1_6"
+      },
+      {
+        "timestamp": 1685667657.5,
+        "canbus_state_change": "2_6"
+      },
+      {
+        "timestamp": 1685667659,
+        "canbus_state_change": "1_6"
+      },
+      {
+        "timestamp": 1685667661,
+        "canbus_state_change": "7_6"
+      },
+      {
+        "timestamp": 1685667779,
+        "canbus_state_change": "2_6"
+      },
+      {
+        "timestamp": 1685667780,
+        "canbus_state_change": "1_6"
+      },
+      {
+        "timestamp": 1683253392.526543,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253425.080098,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253428.266098,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253439.161098,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253442.561174,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253470.837174,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253475.700174,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253489.543371,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253490.263371,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253490.588371,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253494.154371,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253512.294371,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253515.784371,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253542.16652,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253546.76152,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253556.60752,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253560.17652,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253568.252547,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253572.957547,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253582.453547,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683253586.143547,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683253607.760642,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683259596.42605,
+        "canbus_state_change": "1_14"
+      },
+      {
+        "timestamp": 1683259596.45205,
+        "canbus_state_change": "14_0"
+      },
+      {
+        "timestamp": 1683259596.46105,
+        "canbus_state_change": "0_1"
+      },
+      {
+        "timestamp": 1683318354.929619,
+        "canbus_state_change": "14_0"
+      },
+      {
+        "timestamp": 1683318354.939619,
+        "canbus_state_change": "0_1"
+      },
+      {
+        "timestamp": 1683318473.862442,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318475.412442,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318476.112442,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318491.50317,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318492.30517,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318511.00017,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318514.43017,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318522.41117,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318524.01517,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318530.002349,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318530.806349,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318537.345349,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318545.631349,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318558.098349,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318559.203349,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318564.993349,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318566.501349,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318571.54938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318572.84438,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318573.66638,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318575.38338,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318579.23438,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318580.93038,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318581.65538,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318582.35538,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318583.29038,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318583.97538,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318590.85538,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318592.36638,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318598.35538,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318598.96938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318606.50738,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318607.11538,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318607.70338,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318608.32738,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318613.007428,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318613.641428,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318618.354444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318619.361444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318622.425444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318626.584444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318634.991444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318636.486444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318637.206444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318637.903444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318639.130444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318640.022444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318641.435444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318642.242444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318644.196444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318645.110444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318648.326444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318650.077444,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318652.363444,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318660.327613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318660.448613,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318661.142613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318665.206613,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318666.812613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318676.466613,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318677.106613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318685.721613,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318686.416613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318688.826613,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318692.871613,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318701.287938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318703.291938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318705.622938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318707.532938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318708.552938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318712.282938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318712.912938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318714.505938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318718.667938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318721.203938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318726.017938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318732.027938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318735.073938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318736.341938,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318736.436938,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683318757.007079,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683318760.922079,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683321630.839007,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683321632.093007,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683321647.684201,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683321649.729201,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683321650.624201,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683321651.304201,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683321661.054201,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683321664.738201,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683321680.452201,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683321680.911201,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324306.670055,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324313.891055,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324314.520055,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324318.684949,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324323.439949,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324329.580949,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324331.690949,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324340.501949,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324341.920949,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324344.495949,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324353.018949,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324365.667752,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324366.372752,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324375.759752,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324377.094752,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324382.258752,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324384.373752,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324385.540752,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324393.459752,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324398.21606,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324399.22506,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324400.60506,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324402.99006,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324405.68606,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324408.09106,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324410.63106,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324410.83106,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324411.10206,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324412.03606,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324419.83606,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324422.26606,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324441.01823,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324441.64223,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324450.26323,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324451.14723,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324451.35223,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324452.16223,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324459.22323,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324461.65923,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324461.68423,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324463.74323,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324465.01223,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324470.16123,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324470.54123,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324471.15623,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324476.33023,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324484.795391,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324486.410391,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324495.347391,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324501.943391,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324507.497391,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324522.351636,
+        "canbus_state_change": "2_1"
+      },
+      {
+        "timestamp": 1683324525.163636,
+        "canbus_state_change": "1_2"
+      },
+      {
+        "timestamp": 1683324555.456636,
+        "canbus_state_change": "2_1"
+      }
+    ]
+  }
+}

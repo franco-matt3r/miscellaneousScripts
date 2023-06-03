@@ -15,6 +15,7 @@ def build():
     counter = 0
     for index, file in enumerate(filenames, 1):
         if ".log" not in file["Key"]: continue
+        print(index, len(filenames), counter, file["Key"])
         upload_event = {
             "eventVersion": "2.0",
             "eventSource": "aws:s3",
@@ -44,12 +45,16 @@ def build():
             }
         }
         trigger["Records"].append(upload_event)
-        if index%5 == 0 or index == len(filenames):
+        if index%5 == 0:
             with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:
                 json.dump(trigger, outfile)
             trigger["Records"] = []
+            print("Saved file: ", counter)
             counter += 1
-
+    if len(trigger["Records"]) > 0:
+        with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:
+            json.dump(trigger, outfile)
+        print("Saved file: ", counter)
 
 if __name__ == "__main__":
     build()

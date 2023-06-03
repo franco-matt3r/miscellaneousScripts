@@ -9,10 +9,15 @@ BUCKET_NAME_STAGE_2="matt3r-canserver-us-west-2"
 BUCKET_NAME_STAGE_3="matt3r-canserver-event-us-west-2"
 # PREFIX="franco-test/key789/"
 #PREFIX="cheung/k3yusb-e731c27b/"
-PREFIX="mohsen/k3y-7724670b/"
+# PREFIX="mohsen/k3y-7724670b/"
+# PREFIX="hamid/k3y-78f8031e/"
+# PREFIX="hamid/k3y-9ed5b50e/"
+# PREFIX="test-suite/key123/"
+PREFIX="manual-test/key123/"
 FILE_NAME_LIST_DIRECTORY="./data/filenameList"
 MESSAGE_BATCH_DIRECTORY="./data/messageBatch"
 COUNTER=0
+# FOR DATE SPECIFIC TRIGGER ONE DAY AT A TIME, USE THE ALTERNATIVE AWS LIST-OBJECTS COMMAND AT LINE 35
 
 rm -r ${FILE_NAME_LIST_DIRECTORY}/
 rm -r ${MESSAGE_BATCH_DIRECTORY}/
@@ -23,11 +28,14 @@ echo After 30 seconds, the following files from s3://${BUCKET_NAME_STAGE_2}/${PR
 aws s3 rm --dryrun --recursive s3://${BUCKET_NAME_STAGE_2}/${PREFIX}
 aws s3 rm --dryrun --recursive s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
 sleep 30s
+echo "********** Last chance to abord - Deleting in 5 seconds **********"
+sleep 5s
 aws s3 rm --recursive s3://${BUCKET_NAME_STAGE_2}/${PREFIX}
 aws s3 rm --recursive s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
-aws s3 cp ./debug.json s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
+# aws s3 cp ./debug.json s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
 
 aws --output json s3api list-objects --bucket ${BUCKET_NAME_STAGE_1} --prefix ${PREFIX} > ${FILE_NAME_LIST_DIRECTORY}"/filenames.json"
+# aws --output json s3api list-objects --bucket ${BUCKET_NAME_STAGE_1} --prefix ${PREFIX} --query "Contents[?contains(Key, '2023-04-15')]" > ${FILE_NAME_LIST_DIRECTORY}"/filenames.json"
 python3 ./deleteRelatedPostgresTableEntries.py ${PREFIX}
 python3 ./buildTriggerMessage.py ${BUCKET_NAME_STAGE_1} ${MESSAGE_BATCH_DIRECTORY} ${FILE_NAME_LIST_DIRECTORY}"/filenames.json"
 while [ -f ${MESSAGE_BATCH_DIRECTORY}/${COUNTER}.json ];

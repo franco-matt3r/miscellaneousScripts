@@ -14,12 +14,12 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import sessionmaker
 
-RAW_BUCKET = 'haoming-canserver-raw-test'
-PARSED_BUCKET = 'haoming-canserver-test'
-EVENT_BUCKET = 'haoming-canserver-event-test'
-# RAW_BUCKET = 'matt3r-canserver-raw-us-west-2'
-# PARSED_BUCKET = 'matt3r-canserver-us-west-2'
-# EVENT_BUCKET = 'matt3r-canserver-event-us-west-2'
+# RAW_BUCKET = 'haoming-canserver-raw-test'
+# PARSED_BUCKET = 'haoming-canserver-test'
+# EVENT_BUCKET = 'haoming-canserver-event-test'
+RAW_BUCKET = 'matt3r-canserver-raw-us-west-2'
+PARSED_BUCKET = 'matt3r-canserver-us-west-2'
+EVENT_BUCKET = 'matt3r-canserver-event-us-west-2'
 HOST = 'data-catalog.cbbarg1ot9rc.us-west-2.rds.amazonaws.com'
 PORT = 5432
 USERNAME = 'postgres'
@@ -59,6 +59,6 @@ def get_intervals(k3y_id, date):
 
 if __name__ == "__main__":
     # k3y_id = "k3yusb-e731c27b"
-    k3y_id = "key789"
+    k3y_id = "key123"
     date = "2023-04-18"
     get_intervals(k3y_id, date)

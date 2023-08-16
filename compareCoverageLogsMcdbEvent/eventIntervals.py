@@ -9,12 +9,12 @@ import datetime
 import numpy as np
 from io import BytesIO
 
-RAW_BUCKET = 'haoming-canserver-raw-test'
-PARSED_BUCKET = 'haoming-canserver-test'
-EVENT_BUCKET = 'haoming-canserver-event-test'
-# RAW_BUCKET = 'matt3r-canserver-raw-us-west-2'
-# PARSED_BUCKET = 'matt3r-canserver-us-west-2'
-# EVENT_BUCKET = 'matt3r-canserver-event-us-west-2'
+# RAW_BUCKET = 'haoming-canserver-raw-test'
+# PARSED_BUCKET = 'haoming-canserver-test'
+# EVENT_BUCKET = 'haoming-canserver-event-test'
+RAW_BUCKET = 'matt3r-canserver-raw-us-west-2'
+PARSED_BUCKET = 'matt3r-canserver-us-west-2'
+EVENT_BUCKET = 'matt3r-canserver-event-us-west-2'
 s3 = boto3.client('s3')
 
     
@@ -58,6 +58,6 @@ def get_intervals():
 
 if __name__ == "__main__":
     # prefix = "cheung/k3yusb-e731c27b"
-    prefix = "franco-test/key789"
+    prefix = "franco-test/key123"
     date = "2023-04-18"
     get_intervals()

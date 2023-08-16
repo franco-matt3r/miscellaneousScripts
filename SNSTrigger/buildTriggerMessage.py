@@ -49,7 +49,7 @@ def build():
             with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:
                 json.dump(trigger, outfile)
             trigger["Records"] = []
-            print("Saved file: ", counter)
+            print("Saved file: ", f"{counter}.json")
             counter += 1
     if len(trigger["Records"]) > 0:
         with open(f"./{MESSAGE_FOLDER_NAME}/{counter}.json", "w") as outfile:

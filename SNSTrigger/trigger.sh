@@ -7,13 +7,14 @@
 BUCKET_NAME_STAGE_1="matt3r-canserver-raw-us-west-2"
 BUCKET_NAME_STAGE_2="matt3r-canserver-us-west-2"
 BUCKET_NAME_STAGE_3="matt3r-canserver-event-us-west-2"
+PREFIX="franco-test/key123/"
 # PREFIX="franco-test/key789/"
 #PREFIX="cheung/k3yusb-e731c27b/"
 # PREFIX="mohsen/k3y-7724670b/"
 # PREFIX="hamid/k3y-78f8031e/"
 # PREFIX="hamid/k3y-9ed5b50e/"
 # PREFIX="test-suite/key123/"
-PREFIX="manual-test/key123/"
+# PREFIX="manual-test/key123/"
 FILE_NAME_LIST_DIRECTORY="./data/filenameList"
 MESSAGE_BATCH_DIRECTORY="./data/messageBatch"
 COUNTER=0
@@ -28,8 +29,8 @@ echo After 30 seconds, the following files from s3://${BUCKET_NAME_STAGE_2}/${PR
 aws s3 rm --dryrun --recursive s3://${BUCKET_NAME_STAGE_2}/${PREFIX}
 aws s3 rm --dryrun --recursive s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
 sleep 30s
-echo "********** Last chance to abord - Deleting in 5 seconds **********"
-sleep 5s
+echo "********** Last chance to abord - Deleting in 15 seconds **********"
+sleep 15s
 aws s3 rm --recursive s3://${BUCKET_NAME_STAGE_2}/${PREFIX}
 aws s3 rm --recursive s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
 # aws s3 cp ./debug.json s3://${BUCKET_NAME_STAGE_3}/${PREFIX}
